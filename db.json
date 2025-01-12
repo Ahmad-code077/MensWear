@@ -1,0 +1,252 @@
+{
+  "fashion": [
+    {
+      "id": "1",
+      "name": "Classic White Shirt",
+      "category": "Shirts",
+      "price": 1500,
+      "description": "A timeless classic white shirt for formal and casual occasions.",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "White",
+      "availability": true,
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTGHdQvlJHAZEJRBId71a-AI2rW7dL87k1mjvHw7NWbEtBdzgA7R1Xi8R_5P-WEbcir5CMzmZS02W8Dm3mEXmXC_UL1NoLdzNXhdYpweMyL"
+    },
+    {
+      "id": "3",
+      "name": "Leather Jacket",
+      "category": "Jackets",
+      "price": 8000,
+      "description": "Premium quality leather jacket for a stylish look.",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Black",
+      "availability": true,
+      "image": "https://www.angeljackets.com/product_images/z/983/bomber_black_leather_hooded_jacket__95111_zoom.webp"
+    },
+    {
+      "id": "4",
+      "name": "Casual Sneakers",
+      "category": "Footwear",
+      "price": 3500,
+      "description": "Lightweight and comfortable casual sneakers.",
+      "size": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "color": "Gray",
+      "availability": true,
+      "image": "https://target.scene7.com/is/image/Target/GUEST_0d38074d-2d35-4999-badb-6591aa1ead08?wid=1200&hei=1200&qlt=80&fmt=webp"
+    },
+    {
+      "id": "5",
+      "name": "Formal Trousers",
+      "category": "Trousers",
+      "price": 2500,
+      "description": "Elegant formal trousers for office and events.",
+      "size": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "color": "Black",
+      "availability": true,
+      "image": "https://happygentleman.com/wp-content/uploads/2019/11/ralph-brown1-400x400.jpg.webp"
+    },
+    {
+      "id": "6",
+      "name": "Polo T-Shirt",
+      "category": "T-Shirts",
+      "price": 1200,
+      "description": "High-quality polo t-shirt with a comfortable fit.",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Navy Blue",
+      "availability": true,
+      "image": "https://i5.walmartimages.com/seo/Men-T-Shirt-Jersey-Polo-Gildan-Sport-Shirt-Gildan-8800-S-M-L-XL-2XL-School-Casual-Basic-Top-Tshirts-Gift-for-Mens_a00e7823-df02-45f0-8f86-fc133168c707.809830456594300e93e741992aade2dc.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+    },
+    {
+      "id": "7",
+      "name": "Winter Hoodie",
+      "category": "Hoodies",
+      "price": 3000,
+      "description": "Warm and cozy hoodie for winter days.",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Gray",
+      "availability": true,
+      "image": "https://www.shelfies.com/cdn/shop/products/WINTER-WONDERLAND-Hoodie-front-mask-new_1024x1024.jpg?v=1531338590"
+    },
+    {
+      "id": "8",
+      "name": "Sports Shorts",
+      "category": "Shorts",
+      "price": 800,
+      "description": "Breathable sports shorts for workouts and outdoor activities.",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Black",
+      "availability": true,
+      "image": "https://www.vertbaudet.com/fstrz/r/s/media.vertbaudet.com/Pictures/vertbaudet/350184/fleece-sports-shorts-for-girls.jpg?width=800"
+    },
+    {
+      "id": "9",
+      "name": "Woolen Sweater",
+      "category": "Sweaters",
+      "price": 4000,
+      "description": "Soft woolen sweater to keep you warm in style.",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Maroon",
+      "availability": true,
+      "image": "https://icelandicstore.is/cdn/shop/files/Ash_Heather_Hiutaleneule_Snowflake_Wool_sweater_knitting_kit.jpg?v=1705398911&width=800"
+    },
+    {
+      "id": "10",
+      "name": "Cotton Kurta",
+      "category": "Kurtas",
+      "price": 1500,
+      "description": "Traditional cotton kurta for casual and festive wear.",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "White",
+      "availability": true,
+      "image": "https://i.etsystatic.com/28108038/r/il/0954c7/4152932707/il_794xN.4152932707_gia8.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Graphic T-Shirt",
+      "category": "T-Shirts",
+      "price": 1000,
+      "description": "Trendy graphic t-shirt for a casual look.",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Black",
+      "availability": true,
+      "image": "https://obsessedwithgraphictees.com/cdn/shop/products/Future_faa510c8-fcd9-4851-bfef-ef20f40acac3_540x.jpg?v=1690652023"
+    },
+    {
+      "id": "12",
+      "name": "Chinos",
+      "category": "Trousers",
+      "price": 2000,
+      "description": "Stylish chinos for a smart casual look.",
+      "size": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "color": "Beige",
+      "availability": true,
+      "image": "https://bronsonshop.com/cdn/shop/files/1_82b94a3b-592a-4fac-8ede-0ffff6dfc367.jpg?v=1699862103&width=450"
+    },
+    {
+      "id": "13",
+      "name": "Denim Jacket",
+      "category": "Jackets",
+      "price": 4500,
+      "description": "Trendy denim jacket for all seasons.",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Blue",
+      "availability": true,
+      "image": "https://m.media-amazon.com/images/I/819qZGI7NRL._AC_SX425_.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "price": 4000,
+      "description": "Durable and lightweight running shoes for daily runs.",
+      "size": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "color": "White",
+      "availability": true,
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2021/10/running-shoes-2048px-3128-2x1-1.jpg?width=1024&quality=75&crop=2:1&auto=webp"
+    },
+    {
+      "id": "15",
+      "name": "Formal Blazer",
+      "category": "Blazers",
+      "price": 7000,
+      "description": "Tailored formal blazer for professional settings.",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Navy Blue",
+      "availability": true,
+      "image": "https://m.media-amazon.com/images/I/61BmOTOl9aL._AC_SX522_.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Plain T-Shirt",
+      "category": "T-Shirts",
+      "price": 800,
+      "description": "Comfortable plain t-shirt for casual wear.",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Gray",
+      "availability": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMdLNYMwKcwVb23tKb19MPUeY3MWWyMmbz8A&s"
+    },
+    {
+      "id": "1736721361767",
+      "name": "Jeans made",
+      "category": "Pants here ",
+      "price": 699,
+      "description": "A good jeans ",
+      "size": [
+        "M",
+        "XL",
+        "S"
+      ],
+      "color": "Balck",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZjV6VCxaorzk8zzFbgBf3rxvyUg2DZyqtfw&s",
+      "availability": true
+    }
+  ]
+}
