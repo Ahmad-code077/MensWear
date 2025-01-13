@@ -81,7 +81,7 @@ const DressList = ({ dresses, refreshDresses }: DressListProps) => {
           ))}
         </div>
       ) : (
-        <p className='text-gray-300 text-center'>No dresses available.</p>
+        <p className='text-gray-700 text-center'>No dresses available.</p>
       )}
 
       {selectedDress && (

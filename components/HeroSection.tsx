@@ -1,33 +1,32 @@
-import Image from 'next/image';
-
 const HeroSection = () => {
   return (
-    <section className='relative py-12  '>
+    <section className='relative bg-gradient-to-b  py-16'>
       {/* Content Section */}
-      <div className='relative z-10 max-w-7xl mx-auto flex items-center justify-between flex-col md:flex-row gap-4 lg:gap-12'>
+      <div className='relative z-10 max-w-7xl mx-auto flex items-center justify-between flex-col md:flex-row gap-8 px-6'>
         {/* Text Section */}
-        <div className='w-full md:w-1/2'>
-          <h1 className='text-3xl sm:text-5xl font-extrabold mb-8'>
-            Drive the Future with{' '}
-            <span className='text-primary'> DriveSphere</span>
+        <div className='w-full md:w-2/3 lg:w-1/2 text-center md:text-left'>
+          <h1 className='text-4xl sm:text-6xl font-extrabold leading-tight mb-6'>
+            Redefine Your Style with <br />
+            <span className='text-primary'>Menswear Elegance</span>
           </h1>
-          <p className='text-lg sm:text-xl mb-12'>
-            Unleash the power of innovation and performance with our curated
-            collection of the finest cars. Whether you&apos;re after
-            cutting-edge technology or unmatched luxury, WheelDeal is your
-            gateway to the car of your dreams.
+          <p className='text-lg sm:text-xl font-light mb-8'>
+            Discover the finest collection of tailored suits, casual wear, and
+            accessories crafted to enhance your confidence and elevate your
+            style. Embrace the essence of modern sophistication with every step
+            you take.
           </p>
         </div>
 
-        {/* Image Section */}
-        <div className='w-full md:w-1/2'>
-          <Image
-            src='https://cdn.pixabay.com/photo/2024/01/17/12/06/car-8514314_640.png'
-            alt='Car'
-            width={800} // You can adjust the width based on your design
-            height={600} // Adjust the height accordingly to maintain aspect ratio
-            className='w-full h-auto object-cover rounded-lg shadow-lg'
-          />
+        {/* Decorative Section */}
+        <div className='w-full md:w-1/3 lg:w-1/2 flex items-center justify-center'>
+          <div className='relative bg-white p-8 rounded-xl shadow-2xl transform rotate-2 hover:rotate-0 transition-all duration-500'>
+            <p className='text-gray-800 text-2xl font-semibold italic'>
+              &quot;Elegance is not standing out, but being remembered.&quot;
+            </p>
+            <span className='block mt-4 text-right text-gray-600'>
+              - Giorgio Armani
+            </span>
+          </div>
         </div>
       </div>
     </section>

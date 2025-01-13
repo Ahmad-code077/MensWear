@@ -61,7 +61,7 @@ const Navbar = () => {
     : [...data, { id: 7, link: '/login', title: 'Login' }];
 
   return (
-    <nav className='bg-gray-800'>
+    <nav className='bg-primary'>
       <div className='mx-auto max-w-6xl  px-4 '>
         <div className='relative flex h-16 items-center justify-between'>
           <div className='absolute inset-y-0 left-0 flex items-center sm:hidden'>
@@ -81,7 +81,7 @@ const Navbar = () => {
                   <Link
                     key={item.id}
                     href={item.link}
-                    className='rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white'
+                    className='rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-secondary  hover:text-black'
                   >
                     {item.title}
                   </Link>
@@ -130,7 +130,9 @@ const Navbar = () => {
             </div>
           ) : (
             <Link href={'/contact'}>
-              <Button>Contact Us</Button>
+              <Button className='bg-white text-black hover:bg-white/70'>
+                Contact Us
+              </Button>
             </Link>
           )}
         </div>

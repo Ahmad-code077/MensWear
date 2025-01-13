@@ -1,13 +1,15 @@
 'use client';
 
-import HomePageCars from '@/components/HomePageCars';
 import HeroSection from '@/components/HeroSection';
+import HomePageDresses from '@/components/HomePageDress';
+import TrendCards from '@/components/TrendCards';
 
 const Home = () => {
   return (
     <div>
       <HeroSection />
-      <HomePageCars />
+      <TrendCards />
+      <HomePageDresses />
     </div>
   );
 };
